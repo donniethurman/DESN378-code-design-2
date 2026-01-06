@@ -22,9 +22,9 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
+| **GitHub** |https://github.com/donniethurman/DESN368-code-design-workspace-fall25 | ⏳ |
 | **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **CodePen** |https://codepen.io/donniethurman| ⏳ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
