@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** |Adonyah Thurman|
+| **Preferred Name** |Donnie|
+| **Pronouns** |she/her|
+| **EWU Email** |athurman2@ewu.edu|
 
 ---
 
