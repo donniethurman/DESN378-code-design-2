@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** |https://github.com/donniethurman/DESN368-code-design-workspace-fall25 | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** |https://codepen.io/donniethurman| ⏳ |
-| **Portfolio** | *Coming Week 10* | 🔲 |
+| **GitHub** |https://github.com/donniethurman/DESN368-code-design-workspace-fall25 | ✅ |
+| **Figma** | `@athurman2` | ✅ |
+| **CodePen** |https://codepen.io/donniethurman| ✅ |
+| **Portfolio** | *Coming Week 10* https://donniethurman.github.io/DESN368-code-design-workspace-fall25/ | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [x] Same photo uploaded to GitHub, Figma, and CodePen
+- [x] Professional or at least *intentional*
+- [x] Face visible (helps me learn names!)
 
 ---
 
@@ -41,9 +41,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
+| Expires | September 24, 2027 |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,7 +53,7 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
+| Education Plan Active | ✅ |
 | Joined Course Team | ⏳ |
 | Expires | <!-- Date --> |
 
