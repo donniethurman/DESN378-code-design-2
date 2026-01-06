@@ -82,7 +82,7 @@ Before class Wednesday Jan 7th, confirm everything is set up:
 - [x] Portfolio link at top of README
 - [x] GitHub Student Pack active (for Copilot)
 - [x] Figma Education active
-- [ ] VS Code extensions installed (Copilot, Live Server, Prettier)
+- [x] VS Code extensions installed (Copilot, Live Server, Prettier)
 
 ---
 
