@@ -36,8 +36,8 @@ myButton.addEventListener("click", () => {
 /*
   SUMMARY:
   This file does two things:
-  1. [Your explanation of the image changer]
-  2. [Your explanation of the welcome message]
+  1. The image changer toggles between two different images when the user clicks on the image. I assigned my image using the myImage variable, then I added an event listener that basically waits for someone to click on the image, when the click happens, it runs an "if...else" structure that checks if the first image is being shown, if it is then it changes to the second image. 
+  2. First I created a button, then I used JS to create a function that prompts the user to type in thier name, after which I set an "if" statement, which says, if a name is entered, save it, and put it into the greeting. The name is also saved locally so that when the user comes back to the page, their name is still there. If no name is found, the prompt will appear asking for the name.
 ​
-  The key pattern I learned: [your insight here]
+  The key pattern I learned: Was the use of event listeners. Which are a way to run a function when something happens (click, hover, etc.). In this case, I used it to run functions when the image and button were clicked.
 */
