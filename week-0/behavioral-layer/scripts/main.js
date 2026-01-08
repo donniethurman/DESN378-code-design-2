@@ -7,10 +7,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "week-0/behavioral-layer/images/image-1.png") {
-    myImage.setAttribute("src", "week-0/behavioral-layer/images/image-2.png");
+  if (mySrc === "images/image-1.png") {
+    myImage.setAttribute("src", "images/image-2.png");
   } else {
-    myImage.setAttribute("src", "week-0/behavioral-layer/images/image-1.png");
+    myImage.setAttribute("src", "images/image-1.png");
   }
 });
 
