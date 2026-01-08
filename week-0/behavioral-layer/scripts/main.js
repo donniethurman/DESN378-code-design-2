@@ -7,10 +7,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/image-1.png") {
-    myImage.setAttribute("src", "images/image-2.png");
+  if (mySrc === "images/image-1.jpg") {
+    myImage.setAttribute("src", "images/image-2.jpg");
   } else {
-    myImage.setAttribute("src", "images/image-1.png");
+    myImage.setAttribute("src", "images/image-1.jpg");
   }
 });
 
@@ -33,3 +33,12 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
+/*
+  SUMMARY:
+  This file does two things:
+  1. [Your explanation of the image changer]
+  2. [Your explanation of the welcome message]
+​
+  The key pattern I learned: [your insight here]
+*/
