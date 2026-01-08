@@ -39,3 +39,17 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.change-user {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background-color: #4f8dff;
+  border-radius: 12px;
+  border: 2px solid #00539F;
+  color: white;
+}
