@@ -26,7 +26,39 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ## Learning Log
 
 Update this section each week with observations, breakthroughs, and questions.
-
+​
+## Week 0
+​
+### What I Learned
+This week I learned the importance of JavaScript for interactivity of a website. I also learned the difference between let and const. 
+​
+​
+### What Was Hard
+I was frustrated because I didnt understand that I was creating the variables, for some reason I assumed there was only set variables that could be used. 
+​
+​
+### How I Used AI
+I used ChatGPT for one of the freeCodeCamp exercises, the problem was that I didnt know hitting enter allowed you to write a new line of code. Once ChatGPT recognized that for me, everything made a lot more sense. 
+​
+​
+### What's Still Unclear
+I am confused on the function of the console and if it is used for more then just identifying different variables?
+​
+**Engage**
+- [x] Portfolio Audit
+​
+**Learn**
+- [x] Console Explorer
+- [x] Codedex Console Fundamentals
+​
+**Reflect**
+- [x] Visual Notes: Variables and Strings
+​
+**Build**
+- [x] The Setup
+- [x] The Behavioral Layer
+​
+---
 ### Week 1: Systems That Respond
 *Coming soon...*
 
