@@ -13,3 +13,4 @@ Add your Week 1 work here.
 - Design tokens (CSS Custom Properties)
 - Theme toggle
 - `querySelector` and `addEventListener`
+
