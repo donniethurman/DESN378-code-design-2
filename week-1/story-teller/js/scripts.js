@@ -20,8 +20,10 @@ const text = [
   "Claudette Colvin became a key plaintiff in Browder v. Gayle, the case that ended bus segregation in Montgomery. Her courage helped change history—even if her name was forgotten.",
 ];
 
+// Track current step
 let currentIndex = 0;
 
+// Listen for clicks
 myImage.addEventListener("click", () => {
   currentIndex++;
 
@@ -31,4 +33,18 @@ myImage.addEventListener("click", () => {
 
   myImage.src = images[currentIndex];
   myText.textContent = text[currentIndex];
+
+  // Update progress dots
+  updateProgress(currentIndex);
 });
+
+function updateProgress(step) {
+  const dots = document.querySelectorAll('.dot');
+  dots.forEach((dot, index) => {
+    if (index <= step) {
+      dot.classList.add('active');
+    } else {
+      dot.classList.remove('active');
+    }
+  });
+}
