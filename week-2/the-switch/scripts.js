@@ -6,5 +6,5 @@ const toggle = document.querySelector('.theme-toggle');
 toggle.addEventListener('click', function() {
   // Step 3: Toggle the dark class on body
   // What class are we toggling? Look at your CSS — what class changes the colors?
-  document.body.classList.toggle('.dark');
+  document.body.classList.toggle('dark');
 });

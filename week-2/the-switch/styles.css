@@ -8,9 +8,9 @@
 /* Dark mode overrides — fill in the values */
 /* HINT: What colors work for dark mode? Light text on dark background */
 body.dark {
-  --color-surface: ______;  /* What background color for dark mode? */
-  --color-text: ______;     /* What text color for dark mode? */
-  --color-accent: ______;   /* What accent color for dark mode? */
+  --color-surface: black;  /* What background color for dark mode? */
+  --color-text: white;     /* What text color for dark mode? */
+  --color-accent: #0099ff;   /* What accent color for dark mode? */
 }
 
 /* Apply tokens to elements */
