@@ -59,8 +59,6 @@ I am confused on the function of the console and if it is used for more then jus
 - [x] The Behavioral Layer
 ​
 ---
-### Week 1: Systems That Respond
-# Learning Log
 ​
 ## Week 1
 ​
