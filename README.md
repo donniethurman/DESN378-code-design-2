@@ -65,7 +65,7 @@ I am confused on the function of the console and if it is used for more then jus
 ## Week 1
 ​
 ### What I Learned
-<!-- What concepts clicked for you? What was new? -->
+I learned the use of a querySelector in a JS file and in the console. 
 ​
 ​
 ### What Was Hard
