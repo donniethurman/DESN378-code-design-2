@@ -59,9 +59,42 @@ I am confused on the function of the console and if it is used for more then jus
 - [x] The Behavioral Layer
 ​
 ---
-### Week 1: Systems That Respond
-*Coming soon...*
+​
+## Week 1
+​
+### What I Learned
+I learned the use of a querySelector in a JS file and in the console. 
+​
+​
+### What Was Hard
+The most frustrating assignment was the story teller. I felt like there was less direcrion then normal, but I ended up figuring out a lot of things through that frustration. 
+​
+​
+### How I Used AI
+I asked AI why my images were responding to my click on the storyteller assignment. 
+​
+​
+### What's Still Unclear
+I'm going to practice the story teller extended assignment, because I got it done, but I don't exactly understand what I did. 
 
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Variables
+- [x] HTML Academy 
+
+**Practice**
+- [x] The Story Teller
+
+**Build**
+- [x] Portfolio Migration
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [x] Visual Notes: Week 1---
 ### Week 2: Remembering Choices
 *Coming soon...*
 
