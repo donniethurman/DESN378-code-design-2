@@ -1,0 +1,62 @@
+.brand colors {
+  --brandcolors__pink20:#ff9491;
+  --brandcolors__blue80:#a5dcff;
+  --brandcolors__neutrals__neutral10:#fff8ef;
+  --brandcolors__neutrals__neutral90:#353334;
+  --brandcolors__yellow60:#ffc545;
+  --brandcolors__green20:#798b5c;
+}
+.spacing{
+  --XL:40;
+  --S:16;
+  --XXL:56;
+  --L:32;
+  --M:24;
+  --XS:8;
+  --XXXL:64;
+}
+.color-primative{
+  --grey__grey00:#d7cfd3;
+  --grey__grey10:#a19c9e;
+  --grey__grey30:#716f70;
+  --grey__grey50:#595658;
+  --grey__grey90:#353334;
+  --cream__cream00:#fff8ef;
+  --cream__cream20:#ffdaaa;
+  --cream__cream50:#ffc984;
+  --blue__blue10:#f0f9ff;
+  --blue__blue20:#dbf1ff;
+  --blue__blue50:#c2e7ff;
+  --blue__blue80:#a5dcff;
+  --pink__pink00:#ffe8e8;
+  --pink__pink10:#ffc3c1;
+  --pink__pink20:#ff9491;
+  --yellow__yellow10:#fff0d0;
+  --yellow__yellow30:#ffdb8c;
+  --yellow__yellow60:#ffc545;
+}
+.colors{
+  --primary__pink:#ff9491;
+  --primary__blue:#a5dcff;
+  --primary__yellow:#ffc545;
+  --primary__bg__20:#fff8ef;
+  --darkmode__bg__90:#353334;
+  --darkmode__pinkd:#ff9491;
+  --darkmode__yellowd:#ffc545;
+  --darkmode__blued:#a5dcff;
+}
+.typography{
+  --textsize__textsizeS:15;
+  --textsize__textsizeM:36;
+  --textsize__textsizeL:48;
+  --textsize__textsizeXL:64;
+  --textsize__textsizeXXL:200;
+  --fontfamily__fontfamilyheader:Gasoek One;
+  --fontfamily__fontfamilyaccent:Limelight;
+  --fontfamily__fontfamilybody:Libre Caslon Display;
+  --fontweight__fontweightdefault:regular;
+  --fontweight__fontweightmedium:bold;
+}
+.navigation{
+  --darkmode:true;
+}
