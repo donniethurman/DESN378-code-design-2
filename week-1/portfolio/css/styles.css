@@ -1,4 +1,4 @@
-@import{variables.css;}
+@import{figma-variables/variables.css;}
 * {
     box-sizing: border-box;
     margin: 0;
