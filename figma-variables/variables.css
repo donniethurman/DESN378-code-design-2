@@ -1,11 +1,12 @@
 .brand colors {
-  --brandcolors__pink20:#ff9491;
-  --brandcolors__blue80:#a5dcff;
-  --brandcolors__neutrals__neutral10:#fff8ef;
-  --brandcolors__neutrals__neutral90:#353334;
-  --brandcolors__yellow60:#ffc545;
-  --brandcolors__green20:#798b5c;
+  --brandcolors-pink20:#ff9491;
+  --brandcolors-blue80:#a5dcff;
+  --brandcolors-neutrals-10:#fff8ef;
+  --brandcolors-neutrals-90:#353334;
+  --brandcolors-yellow60:#ffc545;
+  --brandcolors-green20:#798b5c;
 }
+
 .spacing{
   --XL:40;
   --S:16;
@@ -16,47 +17,48 @@
   --XXXL:64;
 }
 .color-primative{
-  --grey__grey00:#d7cfd3;
-  --grey__grey10:#a19c9e;
-  --grey__grey30:#716f70;
-  --grey__grey50:#595658;
-  --grey__grey90:#353334;
-  --cream__cream00:#fff8ef;
-  --cream__cream20:#ffdaaa;
-  --cream__cream50:#ffc984;
-  --blue__blue10:#f0f9ff;
-  --blue__blue20:#dbf1ff;
-  --blue__blue50:#c2e7ff;
-  --blue__blue80:#a5dcff;
-  --pink__pink00:#ffe8e8;
-  --pink__pink10:#ffc3c1;
-  --pink__pink20:#ff9491;
-  --yellow__yellow10:#fff0d0;
-  --yellow__yellow30:#ffdb8c;
-  --yellow__yellow60:#ffc545;
+  --grey-grey00:#d7cfd3;
+  --grey-grey10:#a19c9e;
+  --grey-grey30:#716f70;
+  --grey-grey50:#595658;
+  --grey-grey90:#353334;
+  --cream-cream00:#fff8ef;
+  --cream-cream20:#ffdaaa;
+  --cream-cream50:#ffc984;
+  --blue-blue10:#f0f9ff;
+  --blue-blue20:#dbf1ff;
+  --blue-blue50:#c2e7ff;
+  --blue-blue80:#a5dcff;
+  --pink-pink00:#ffe8e8;
+  --pink-pink10:#ffc3c1;
+  --pink-pink20:#ff9491;
+  --yellow-yellow10:#fff0d0;
+  --yellow-yellow30:#ffdb8c;
+  --yellow-yellow60:#ffc545;
 }
+
 .colors{
-  --primary__pink:#ff9491;
-  --primary__blue:#a5dcff;
-  --primary__yellow:#ffc545;
-  --primary__bg__20:#fff8ef;
-  --darkmode__bg__90:#353334;
-  --darkmode__pinkd:#ff9491;
-  --darkmode__yellowd:#ffc545;
-  --darkmode__blued:#a5dcff;
+  --primary-pink:#ff9491;
+  --primary-blue:#a5dcff;
+  --primary-yellow:#ffc545;
+  --primary-bg-20:#fff8ef;
+  --darkmode-bg-90:#353334;
+  --darkmode-pinkd:#ff9491;
+  --darkmode-yellowd:#ffc545;
+  --darkmode-blued:#a5dcff;
 }
 .typography{
-  --textsize__textsizeS:15;
-  --textsize__textsizeM:36;
-  --textsize__textsizeL:48;
-  --textsize__textsizeXL:64;
-  --textsize__textsizeXXL:200;
-  --fontfamily__fontfamilyheader:Gasoek One;
-  --fontfamily__fontfamilyaccent:Limelight;
-  --fontfamily__fontfamilybody:Libre Caslon Display;
-  --fontweight__fontweightdefault:regular;
-  --fontweight__fontweightmedium:bold;
+  --textsize-S:15;
+  --textsize-M:36;
+  --textsize-L:48;
+  --textsize-XL:64;
+  --textsize-XXL:200;
+  --fontfamily-header:Gasoek One;
+  --fontfamily-accent:Limelight;
+  --fontfamily-body:Libre Caslon Display;
+  --fontweight-default:regular;
+  --fontweight-medium:bold;
 }
-.navigation{
+.nav {
   --darkmode:true;
 }
