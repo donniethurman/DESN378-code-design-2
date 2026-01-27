@@ -100,6 +100,44 @@ I'm going to practice the story teller extended assignment, because I got it don
 
 ---
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+This week I learned about conditionals and Figma variables. 
+​
+​
+### What Was Hard
+The "figma-variables" was slightly hard to follow. I felt like I didnt understand the value of creating the semantic AND regular names. 
+​
+​
+### How I Used AI
+I did not use AI this week.
+​
+​
+### What's Still Unclear
+I would like to complete the "Story Teller" extra credit (not for points) to deepen my understanding. 
+​
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Conditionals
+- [x] figma variables
+
+**Practice**
+- [x] The Switch
+
+**Build**
+- [x] The Foundation
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [x] Visual Notes: Week 2---
+
 ## Quick Links
 
 - [My Profile](PROFILE.md)
