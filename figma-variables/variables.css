@@ -1,3 +1,9 @@
+/* Design Tokens — Donnie Thurman's Portfolio */
+
+
+/* refactor styles.css and add toggle button later*/
+
+/* Color Tokens */
 .brand colors {
   --brandcolors-pink20:#ff9491;
   --brandcolors-blue80:#a5dcff;
@@ -7,15 +13,7 @@
   --brandcolors-green20:#798b5c;
 }
 
-.spacing{
-  --XL:40;
-  --S:16;
-  --XXL:56;
-  --L:32;
-  --M:24;
-  --XS:8;
-  --XXXL:64;
-}
+
 .color-primative{
   --grey-grey00:#d7cfd3;
   --grey-grey10:#a19c9e;
@@ -37,7 +35,8 @@
   --yellow-yellow60:#ffc545;
 }
 
-.colors{
+
+:root {
   --primary-pink:#ff9491;
   --primary-blue:#a5dcff;
   --primary-yellow:#ffc545;
@@ -47,7 +46,30 @@
   --darkmode-yellowd:#ffc545;
   --darkmode-blued:#a5dcff;
 }
-.typography{
+
+
+/* Light mode  */ 
+[data-theme="light"] {
+  --background-color:var(--primary-bg-20);
+  --text-color:var(--darkmode-bg-90);
+  --accent-pink:var(--primary-pink);
+  --accent-blue:var(--primary-blue);
+  --accent-yellow:var(--primary-yellow);
+}
+
+
+/* Dark mode  */
+[data-theme="dark"] {
+  --background-color:var(--darkmode-bg-90);
+  --text-color:var(--primary-bg-20);
+  --accent-pink:var(--darkmode-pinkd);
+  --accent-blue:var(--darkmode-blued);
+  --accent-yellow:var(--darkmode-yellowd);
+}
+
+
+/* Typography Tokens */
+:root {
   --textsize-S:15;
   --textsize-M:36;
   --textsize-L:48;
@@ -59,6 +81,19 @@
   --fontweight-default:regular;
   --fontweight-medium:bold;
 }
+
+
+/* Spacing Tokens */
+:root {
+  --XL:40;
+  --S:16;
+  --XXL:56;
+  --L:32;
+  --M:24;
+  --XS:8;
+  --XXXL:64;
+}
+
 .nav {
   --darkmode:true;
 }
