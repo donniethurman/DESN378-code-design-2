@@ -17,13 +17,34 @@
   --primary-blue: #A5DCFF;
   --green-color: #798B5C;
   --black-color: #353334;
-  
-  /* Dark mode colors */
-  --dark-bg-color: #1a1a1a;
-  --dark-text-color: #f5f5f5;
-  --dark-pink: #ff6b6b;
-  --dark-yellow: #ffa500;
-  --dark-blue: #6ba3d4;
+}
+
+[data-theme="light"] {
+  --background-color:var(--primary-bg-color);
+  --text-color:var(--black-color);
+  --accent-pink:var(--primary-pink);
+  --accent-blue:var(--primary-blue);
+  --accent-yellow:var(--primary-yellow);
+}
+
+
+/* Dark mode  */
+[data-theme="dark"] {
+  --background-color:var(--text-color);
+  --text-color:var(--primary-bg-color);
+  --accent-pink:var(--primary-pink);
+  --accent-blue:var(--primary-blue);
+  --accent-yellow:var(--primary-yellow);
+}
+
+.theme-toggle {
+  padding: .5rem;
+  color: var(--text-color);
+  background-color: var(--primary-bg-color);
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  font-family: var(--primary-header-font);
+  margin-left: 4rem;
 }
 
 html {
@@ -99,7 +120,7 @@ ul {
 }
 
 li {
-  padding-left: 7rem;
+  padding-left: 4rem;
 }
 
 #logo {
@@ -592,6 +613,7 @@ footer {
   opacity: 55%;
 }
 
+/* 
 [data-theme="light"] {
   --background-color:var(--primary-bg-color);
   --text-color:var(--black-color);
@@ -601,14 +623,14 @@ footer {
 }
 
 
-/* Dark mode  */
 [data-theme="dark"] {
   --background-color:var(--text-color);
   --text-color:var(--primary-bg-color);
-  --accent-pink:var(--darkmode-pinkd);
-  --accent-blue:var(--darkmode-blued);
-  --accent-yellow:var(--darkmode-yellowd);
+  --accent-pink:var(--primary-pink);
+  --accent-blue:var(--primary-blue);
+  --accent-yellow:var(--primary-yellow);
 }
+*/ 
 
 /* keyframes */
 @keyframes bounce {
