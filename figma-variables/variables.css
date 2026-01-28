@@ -40,7 +40,7 @@
   --primary-pink:#ff9491;
   --primary-blue:#a5dcff;
   --primary-yellow:#ffc545;
-  --primary-bg-20:#fff8ef;
+  --primary-bg-color:#fff8ef;
   --darkmode-bg-90:#353334;
   --darkmode-pinkd:#ff9491;
   --darkmode-yellowd:#ffc545;
@@ -75,9 +75,9 @@
   --textsize-L:48;
   --textsize-XL:64;
   --textsize-XXL:200;
-  --fontfamily-header:Gasoek One;
-  --fontfamily-accent:Limelight;
-  --fontfamily-body:Libre Caslon Display;
+  --primary-header-font:Gasoek One;
+  --primary-accent-font:Limelight;
+  --primary-body-font:Libre Caslon Display;
   --fontweight-default:regular;
   --fontweight-medium:bold;
 }
