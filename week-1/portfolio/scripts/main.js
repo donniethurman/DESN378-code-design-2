@@ -1,4 +1,19 @@
-// Step 1: Check for saved preference
+// Detect and apply theme on page load (runs immediately)
+(function() {
+  const savedTheme = localStorage.getItem('theme');
+  
+  if (savedTheme) {
+    document.documentElement.dataset.theme = savedTheme;
+  } else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.dataset.theme = prefersDark ? 'dark' : 'light';
+  }
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+  // ... your existing code ...
+});
+/*// Step 1: Check for saved preference
 const savedTheme = localStorage.getItem('theme');
 
 if (savedTheme) {
@@ -13,7 +28,7 @@ if (savedTheme) {
   } else {
     document.documentElement.dataset.theme = 'light';
   }
-}
+} */
 
 document.addEventListener('DOMContentLoaded', function() {
   // ... your existing code ...
