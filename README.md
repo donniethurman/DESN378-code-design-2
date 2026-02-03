@@ -142,9 +142,8 @@ I would like to complete the "Story Teller" extra credit (not for points) to dee
 - [Labs](labs/)
 
 ---
-# Learning Log
 ​
-## Week 
+## Week 3
 ​
 ### What I Learned
 I learned the importance of design tokens. As well as the difference between state vs appearance (what the system is vs what it looks like). Also, system preference and how to make a preference stay on refresh.
