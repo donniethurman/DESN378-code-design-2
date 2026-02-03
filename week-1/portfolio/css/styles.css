@@ -194,7 +194,7 @@ a {
 /* sections */
 h2 {
   background-color: var(--primary-pink);
-  color: var(--primary-color);
+  color: var(--text-color);
   width: 100%;
   max-width: 68.5rem;
   font-size: 4rem;
