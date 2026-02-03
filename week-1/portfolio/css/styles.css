@@ -206,6 +206,7 @@ h3 {
 p {
   font-family: var(--primary-body-font);
   font-size: 1rem;
+  color: var(--text-color);
 }
 
 #project-showcase {
@@ -240,6 +241,7 @@ p {
 
 .bio-text {
   display: flex;
+  color: var(--text-color);
 }
 
 #bio p {
@@ -249,6 +251,7 @@ p {
   padding: 2rem;
   padding-top: 14rem;
   margin-top: 2rem;
+  color: var(--text-color);
 }
 
 .bio-img {
@@ -319,6 +322,7 @@ p {
   max-width: 21rem;
   width: 100%;
   padding-right: 1rem;
+  color: var(--text-color);
 }
 
 /* my work */
@@ -355,6 +359,7 @@ p {
   padding: 1rem;
   padding-top: 1rem;
   margin-top: 21rem;
+  color: var(--text-color);
 }
 .pheader {
   text-align: right;
@@ -965,6 +970,7 @@ main {
     scroll-behavior: auto !important;
   }
 }
+
 
 
 /* to do:
