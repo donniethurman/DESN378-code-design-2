@@ -99,8 +99,6 @@ I'm going to practice the story teller extended assignment, because I got it don
 *Coming soon...*
 
 ---
-
-# Learning Log
 ​
 ## Week 2
 ​
@@ -144,6 +142,46 @@ I would like to complete the "Story Teller" extra credit (not for points) to dee
 - [Labs](labs/)
 
 ---
+# Learning Log
+​
+## Week 
+​
+### What I Learned
+I learned the importance of design tokens. As well as the difference between state vs appearance (what the system is vs what it looks like). Also, system preference and how to make a preference stay on refresh.
+​
+​
+### What Was Hard
+I struggled with submitting screenshots of the "proof" that my browser was responding to my OS because the instructions were structured for Chrome, and I was on Firefox. Other than that, typical pit of despair stuff...
+​
+​
+### How I Used AI
+I used copilot to help me figure out why my JS wasn't pulling my system preference for dark mode and recuded motion. (It was a problem with the order of my JS).
+​
+​
+### What's Still Unclear
+Nothing is particulary unclear, I just feel like I have less of a grasp on JS than I did on HTML and CSS at this time last quarter. 
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [x] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [x] System preference used on first visit
+
+**Deployment**
+- [x] Deployed to GitHub Pages
+- [x] Repository is public
 
 ## Tools
 
