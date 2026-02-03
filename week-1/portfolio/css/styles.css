@@ -38,8 +38,14 @@
   --text-color: var(--black-color);
   --accent-pink: var(--primary-pink);
   --accent-blue: var(--primary-blue);
-  --accent-yellow: var(--primary-yellow);
+  --accent-yellow: var(--primary-yellow); 
+  --hero-texture: none;
 }
+
+.header-texture {
+  background-image: var(--hero-texture);
+}
+
 
 .theme-toggle {
   padding: .5rem;
@@ -152,6 +158,7 @@ a {
   margin-bottom: 1rem;
   margin-top: 2rem;
   opacity: 100%;
+  color: var(--text-color);
 }
 
 #header2 {
@@ -161,13 +168,14 @@ a {
   padding-top: 1rem;
   background-color: var(--primary-bg-color);
   border: none;
+  color: var(--text-color);
 }
 
 .header-texture {
   width: 100%;
   height: 11.3rem;
-  background-image: url(https://snipboard.io/FGOg8z.jpg);
-  opacity: 90%;
+  background-image: var(--hero-texture);
+  opacity: 100%;
   margin-top: -2rem;
   box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3)
 }
@@ -178,9 +186,9 @@ a {
   margin: 0 auto;
   text-align: center;
   font-family: var(--primary-body-font);
-  color: rgba(53, 51, 52, 0.9);
+  color: var(--text-color);
   margin-top: -3rem;
-  padding-bottom: 13.5rem;
+  padding-bottom: 18rem;
 }
 
 /* sections */
