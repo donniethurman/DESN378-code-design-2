@@ -17,6 +17,10 @@
   --primary-blue: #A5DCFF;
   --green-color: #798B5C;
   --black-color: #353334;
+  --primary-pink-dark: #E18582;
+  --primary-yellow-dark: #d4a43b;
+  --primary-blue-dark: #7bb0d1;
+  --green-color-dark: #5e6f45;
 }
 
 [data-theme="light"] {
@@ -36,9 +40,9 @@
   --black-color: #FFF8EF;
   --background-color: var(--primary-bg-color);
   --text-color: var(--black-color);
-  --accent-pink: var(--primary-pink);
-  --accent-blue: var(--primary-blue);
-  --accent-yellow: var(--primary-yellow); 
+  --primary-pink: var(--primary-pink-dark);
+  --primary-blue: var(--primary-blue-dark);
+  --primary-yellow: var(--primary-yellow-dark); 
   --hero-texture: none;
 }
 
