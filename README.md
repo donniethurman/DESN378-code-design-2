@@ -21,6 +21,17 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 |---|---------|-------|--------|
 | 1 | The System | Design tokens + theme switching | 🔲 |
 
+# Project 1 Descriptions:
+- Project can be found in my learning log at the top of this README (under "portfolio").
+
+Brief description of my token system: My token system equates to my primary background color (--primary-bg-color) and the inverse for dark mode. As well as my three brand primaries. And finally, my text color (--text-color). My spacing tokens are in values of 8, starting at XS all the way to XXL. My typography includes my text font (--primary-body-font), my accent font (--primary-accent-font), and my header font (--primary-header-font).  
+
+Design decisions worth noting: I toned the values of my primary brand colors down for the dark mode version, so it's not just an invert of my light mode. 
+
+Citations for any resources used: 
+- Coolors: for deciding the colors for dark mode
+- Copilot: for troubleshooting bugs in code for referencing OS. 
+
 ---
 
 ## Learning Log
