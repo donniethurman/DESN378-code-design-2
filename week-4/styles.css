@@ -1,0 +1,29 @@
+:root {
+  --primary-bg-color: #FFF8EF; /* Cream */
+  --text-color: #353334;      /* Light Black */
+  --primary-header-font: "Gasoek One", sans-serif;
+  --primary-body-font: "Libre Caslon Display", serif;
+  --primary-accent-font: "Limelight", sans-serif;
+  --primary-pink: #ff9491;
+  --primary-yellow: #FFC545;
+  --primary-blue: #A5DCFF;
+  --green-color: #798B5C;
+  --black-color: #353334;
+  --primary-pink-dark: #E18582;
+  --primary-yellow-dark: #d4a43b;
+  --primary-blue-dark: #7bb0d1;
+  --green-color-dark: #5e6f45;
+}
+
+.dropdown {
+  position: relative;      /* Anchor for absolute positioning */
+}
+
+.dropdown-content {
+  display: none;           /* Hidden by default */
+  position: absolute;      /* Positioned relative to .dropdown */
+}
+
+.dropdown:active .dropdown-content {
+  display: block;          /* Shown on hover */
+}
