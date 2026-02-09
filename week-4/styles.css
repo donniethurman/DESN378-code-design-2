@@ -27,3 +27,26 @@
 .dropdown.is-open .dropdown-content {
   display: block;          /* Shown on click */
 }
+
+[data-theme="light"] {
+  --primary-bg-color: #FFF8EF;
+  --black-color: #353334;
+  --background-color: var(--primary-bg-color);
+  --text-color: var(--black-color);
+  --accent-pink: var(--primary-pink);
+  --accent-blue: var(--primary-blue);
+  --accent-yellow: var(--primary-yellow);
+}
+
+
+/* Dark mode  */
+[data-theme="dark"] {
+  --primary-bg-color: #353334;
+  --black-color: #FFF8EF;
+  --background-color: var(--primary-bg-color);
+  --text-color: var(--black-color);
+  --primary-pink: var(--primary-pink-dark);
+  --primary-blue: var(--primary-blue-dark);
+  --primary-yellow: var(--primary-yellow-dark); 
+  --hero-texture: none;
+}
