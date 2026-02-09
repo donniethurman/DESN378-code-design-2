@@ -50,3 +50,9 @@
   --primary-yellow: var(--primary-yellow-dark); 
   --hero-texture: none;
 }
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  font-family: var(--primary-body-font);
+}
