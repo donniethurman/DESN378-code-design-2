@@ -24,6 +24,6 @@
   position: absolute;      /* Positioned relative to .dropdown */
 }
 
-.dropdown:active .dropdown-content {
-  display: block;          /* Shown on hover */
+.dropdown.is-open .dropdown-content {
+  display: block;          /* Shown on click */
 }
