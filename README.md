@@ -193,6 +193,25 @@ Nothing is particulary unclear, I just feel like I have less of a grasp on JS th
 - [x] Deployed to GitHub Pages
 - [x] Repository is public
 
+​
+## Week 4
+​
+### What I Learned
+This week I learned how to create SVGs in an SVG tutorial. As well as how to create a drop down that includes theme switches for light, dark, and OS modes for my portfolio page. I also completed visual notes/research on SVG's. 
+​
+​
+### What Was Hard
+The hardest thing this week was the "Theme Dropdown's with Custom SVG's". I had trouble styling the <li> with the SVGs.  
+​
+​
+### How I Used AI
+I used AI to help me figure out bugs in my code for the Theme Dropdown assignment. 
+​
+​
+### What's Still Unclear
+I am still wrapping my head around the way SVGs work. 
+​
+​
 ## Tools
 
 - **Editor:** VS Code + GitHub Copilot
