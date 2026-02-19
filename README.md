@@ -210,6 +210,24 @@ I used AI to help me figure out bugs in my code for the Theme Dropdown assignmen
 ​
 ### What's Still Unclear
 I am still wrapping my head around the way SVGs work. 
+
+## Week 5
+​
+### What I Learned
+This week I learned about GSAP. As well as how to create and animate SVGs. As well as creating an outline for our final project on scrollytelling. 
+​
+​
+### What Was Hard
+Animating SVGs was difficult to do, only because the notes on GSAP are extensive. Being able to go back through the videos and sift through each thing I needed was helpful. 
+​
+​
+### How I Used AI
+I didnt use AI much this week on actual code, I did use ChatGPT to help me make my story/narrative map more concise. It was pretty wordy beforehand. 
+​
+​
+### What's Still Unclear
+How are these animations going to be triggered by scroll?
+​
 ​
 ​
 ## Tools
