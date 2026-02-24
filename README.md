@@ -41,7 +41,38 @@ Citations for any resources used:
 
 Update this section each week with observations, breakthroughs, and questions.
 
-
+## Week 7
+​
+### What I Learned
+This week I learned how to code parallax and how to give gsap animations sound effects. 
+​
+​
+### What Was Hard
+I took time for me to understand the difference between gsap.to and gsap.fromTo. 
+​
+​
+### How I Used AI
+Figuring out bugs in animations. 
+​
+​
+### What's Still Unclear
+<!-- Questions that remain -->
+## Week 6
+​
+### What I Learned
+This week I learned about parallax and gsap animations. As well as scrollytelling. 
+​
+​
+### What Was Hard
+I was confused on how to design the animations without actually making them animated. In order to get over that I try to think of it like stop motion. Each frame is right before or right after an animation takes place. 
+​
+​
+### How I Used AI
+I used ChatGPT to help me brainstorm animations for my project. 
+​
+​
+### What's Still Unclear
+<!-- Questions that remain -->
 ## Week 5
 ​
 ### What I Learned
