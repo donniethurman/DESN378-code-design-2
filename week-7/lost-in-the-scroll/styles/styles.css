@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-size: 15px;
     min-height: 100%;
@@ -23,8 +29,7 @@ html {
 body {
   margin: 0;
   text-align: center;
-  background: var(--background-color);
-  background-image: url("../assets/background-LITS.jpg");
+  background-color: var(--dark-green);
   background-size: 100% auto;
   background-position: center top;
   background-repeat: repeat-y;
@@ -44,8 +49,11 @@ section {
 }
 
 .section-content {
-  width: min(72rem, 100%);
+  width: min(50rem, 100%);
   margin-inline: auto;
+  background-color: var(--cream-color);
+  padding: var(--body-font-L);
+  border-radius: 1rem;
 }
 
 p {
@@ -54,81 +62,71 @@ p {
     margin: auto;
 }
 
+.trail-marker {
+    width: 50rem;
+    height: auto;
+    margin-left: -40rem;
+}
 /* hero */
 h1 {
     font-family: var(--header-font);
     font-size: var(--header-font-M);
     margin: 0;
-    margin-top: 90rem;
+    color: var(--text-color-dark);
+}
+
+h2 {
+    font-family: var(--header-font);
+    font-size: var(--body-font-L);
+    margin: 0;
+    color: var(--text-color);
+}
+
+.section-1-content {
     color: var(--cream-color);
+    margin-top: 20rem;
 }
 
-.section-hero p{
-    font-size: var(--body-font-M);
-    font-family: var(--body-font);
-    color: var(--cream-color);
+/* section opening */ 
+.section-content {
+    justify-content: right;
+    align-items: flex-end;
+    gap: var(--body-font-M);
+    margin-top: 18rem;
 }
 
-#hero-description {
-    width: 64rem;
-    margin-top: 5rem;
+.section-content {
+    line-height: 2;
 }
 
-/* section 1 */
-.section-opening{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50rem;
-    margin-left: 38rem;
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 10rem;
 }
 
-/* section 2 */
-.section-first-contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30rem;
+.opening-title-text {
+    margin-left: -40rem;
+    margin-top: -24rem;
 }
 
-/* section 3 */
-.section-naming-things{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60rem;
-    margin-right: 7rem;
+/* right side signs stlying */
+.trail-marker2 {
+    width: 50rem;
+    height: auto;
+    margin-right: -40rem;
 }
 
-/* section 4 */
-.section-the-switch{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 55rem;
-    margin-right: 6rem;
+.closing-title-text {
+    margin-right: -40rem;
+    margin-top: -24rem;
 }
 
-/* section 5 */
-.section-listening{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40rem;
-    margin-left: 14rem;
+/* subheaders */
+.opening-sub-text {
+    margin-right: -40rem;
 }
 
-/* section 6 */
-.section-listening{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80rem;
-    margin-left: 14rem;
+.closing-sub-text {
+    margin-right: 40rem;
 }
