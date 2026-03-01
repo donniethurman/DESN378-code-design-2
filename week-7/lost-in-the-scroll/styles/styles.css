@@ -1,5 +1,6 @@
 html {
     font-size: 15px;
+    min-height: 100%;
 }
 /* fonts */
 .alfa-slab-one-regular {
@@ -8,12 +9,126 @@ html {
   font-style: normal;
 }
 
-.roboto-serif-<uniquifier> {
+.roboto-serif {
   font-family: "Roboto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100,
     "GRAD" 0;
+}
+
+/* global styles */
+body {
+  margin: 0;
+  text-align: center;
+  background: var(--background-color);
+  background-image: url("../assets/background-LITS.jpg");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: repeat-y;
+  color: var(--text-color-dark);
+  font-family: var(--body-font);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  min-height: 100svh;
+  padding: var(--body-font-M);
+}
+
+.section-content {
+  width: min(72rem, 100%);
+  margin-inline: auto;
+}
+
+p {
+    width: 40rem;
+    height: 100%;
+    margin: auto;
+}
+
+/* hero */
+h1 {
+    font-family: var(--header-font);
+    font-size: var(--header-font-M);
+    margin: 0;
+    margin-top: 90rem;
+    color: var(--cream-color);
+}
+
+.section-hero p{
+    font-size: var(--body-font-M);
+    font-family: var(--body-font);
+    color: var(--cream-color);
+}
+
+#hero-description {
+    width: 64rem;
+    margin-top: 5rem;
+}
+
+/* section 1 */
+.section-opening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50rem;
+    margin-left: 38rem;
+}
+
+/* section 2 */
+.section-first-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+/* section 3 */
+.section-naming-things{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60rem;
+    margin-right: 7rem;
+}
+
+/* section 4 */
+.section-the-switch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55rem;
+    margin-right: 6rem;
+}
+
+/* section 5 */
+.section-listening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40rem;
+    margin-left: 14rem;
+}
+
+/* section 6 */
+.section-listening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80rem;
+    margin-left: 14rem;
 }
